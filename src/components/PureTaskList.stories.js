@@ -47,4 +47,3 @@ export const Loading = () => ({
 export const Empty = () => ({
   Component: PureTaskList,
 });
-u;
