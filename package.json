@@ -7,7 +7,8 @@
     "start": "sirv public",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "chromatic": "npx chromatic --project-token njjoaa7trai"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -15,6 +16,7 @@
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@storybook/addon-actions": "^6.1.11",
     "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-knobs": "^6.1.11",
     "@storybook/addon-links": "^6.1.11",
     "@storybook/addon-storyshots": "^6.1.11",
     "@storybook/svelte": "^6.1.11",
